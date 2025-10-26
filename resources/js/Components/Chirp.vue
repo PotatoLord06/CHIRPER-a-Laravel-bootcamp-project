@@ -44,7 +44,7 @@ const editing = ref(false);
                             Edit
                         </button>
                         <DropdownLink class="bg-red" as="button" :href="route('chirps.destroy', chirp.id)" method="delete">
-                            Destroy
+                            Delete
                         </DropdownLink>
                     </template>
                 </Dropdown>
